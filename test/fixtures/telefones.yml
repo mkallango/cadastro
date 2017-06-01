@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ddd: MyString
+  fone: MyString
+  cliente: one
+
+two:
+  ddd: MyString
+  fone: MyString
+  cliente: two

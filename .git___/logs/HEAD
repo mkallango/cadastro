@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 b6e5523b4fa45d9e3b5dc484780cafaa75da802f Marcello Mello <pilotodanave@live.com> 1479433705 -0200	commit (initial): primeiro commit
+b6e5523b4fa45d9e3b5dc484780cafaa75da802f 61aed32a07d2b5dd4b00940d11a31f92d6795922 Marcello Mello <pilotodanave@live.com> 1479516137 -0200	commit: Formulário de Cadastro, Cliente - Nome, Endereço, Emails, Telefones, Crianças
+61aed32a07d2b5dd4b00940d11a31f92d6795922 8ef085903e480d480284efd6730a3f76e305cc7f Marcello Mello <pilotodanave@live.com> 1480029721 -0200	commit: Busca de Cliente
+8ef085903e480d480284efd6730a3f76e305cc7f 708804a7ef862e4bc6bdbcb18e7bb23fa7f42068 Marcello Mello <pilotodanave@live.com> 1480032810 -0200	commit: Busca de Cliente - FIXED
+708804a7ef862e4bc6bdbcb18e7bb23fa7f42068 7641b1ce4fe771729aed1098a4423845156c27dc Marcello Mello <pilotodanave@live.com> 1496277078 -0300	commit: Busca na cliente a partir da tela inicial
+7641b1ce4fe771729aed1098a4423845156c27dc 7dfa858990a0578da31a0a7da378194dd35485d8 Marcello Mello <pilotodanave@live.com> 1496277734 -0300	commit: remove module

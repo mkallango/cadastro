@@ -1,0 +1,8 @@
+<tr>
+	<td><%= crianca.name %></td>
+	<td><%= crianca.mes %></td>
+	<td><%= crianca.ano %></td>
+	<td><%= link_to 'Remover Criança', [crianca.cliente, crianca],
+				method: :delete,
+				data: { confirm: 'Tem certeza que deseja remover a criança do cadastro?'} %></td>
+</tr>

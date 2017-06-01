@@ -1,0 +1,16 @@
+<%= form_for([@cliente, @cliente.criancas.build]) do |f| %>
+
+	<p>
+		Nome: <%= f.text_field :name %>
+	</p>
+	<p>		
+		Mês: <%= f.select(:mes, ['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ']) %>
+
+	</p>
+	<p>		
+		Ano: <%= f.text_field :ano %>
+	</p>
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>

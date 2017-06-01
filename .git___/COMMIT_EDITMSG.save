@@ -1,0 +1,11 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# No ramo master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Mudanças a serem submetidas:
+	modified:   app/controllers/clientes_controller.rb
+#	modified:   app/models/cliente.rb
+#	modified:   app/views/clientes/index.html.erb
+#

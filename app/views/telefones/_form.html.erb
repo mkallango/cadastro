@@ -1,0 +1,14 @@
+<%= form_for([@cliente, @cliente.telefones.build]) do |f| %>
+	<p>
+		DDD: <%= f.text_field :ddd %>
+	</p>
+	<p>
+		Fone: <%= f.text_field :fone %>
+	</p>
+	<p>		
+		Tipo: <%= f.select(:tipo, ['CELULAR','RESIDENCIAL','COMERCIAL']) %>
+	</p>
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>

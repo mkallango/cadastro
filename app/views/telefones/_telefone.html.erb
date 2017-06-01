@@ -1,0 +1,8 @@
+<tr>
+	<td><%= telefone.ddd %></td>
+	<td><%= telefone.fone %></td>
+	<td><%= telefone.tipo %></td>
+	<td><%= link_to 'Remover Telefone', [telefone.cliente, telefone],
+			method: :delete,
+			data: { confirm: 'Tem certeza que deseja remover o telefone do cadastro?'} %></td>
+</tr>

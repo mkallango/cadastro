@@ -1,0 +1,29 @@
+<%= form_for @cliente do |f| %>
+	<% if @cliente.errors.any? %>
+		<div id="error_explanation">
+			<h2>
+				<%= pluralize(@cliente.errors.count, "erro") %>
+				impede de salvar o cliente.
+			</h2>
+			<ul>
+				<% @cliente.errors.full_messages.each do |msg| %>
+					<li><%= msg %></li>
+				<% end %>
+			</ul>
+		</div>
+	<% end %>
+
+	<p>
+		<%= f.label :name %><br>
+		<%= f.text_field :name %>
+	</p>
+
+	<p>
+		<%= f.label :address %>
+		<%= f.text_area :address %>
+	</p>
+
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>

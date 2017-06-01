@@ -1,0 +1,60 @@
+<h1> Cadastro do Cliente </h1>
+
+<p>
+	<strong>Nome:</strong>
+	<%= @cliente.name %>
+</p>
+
+<p>
+	<strong>Endereço:</strong>
+	<%= @cliente.address %>
+</p>
+
+<strong>Emails:</strong>
+<table id='email'>
+	<tr>
+		<th>Email</th>
+		<th colspan="4"></th>
+	</tr>
+	<%= render @cliente.emails %>
+</table>
+
+ <br>
+<strong>Telefones:</strong>
+<table id='fones'>
+	<tr>
+		<th>DDD</th>
+		<th>Telefone</th>
+		<th>Tipo</th>
+		<th colspan="4"></th>
+	</tr>
+	<%= render @cliente.telefones %>
+</table>
+
+<br>
+<strong>Crianças:</strong>
+<table id='criancas'>
+	<tr>
+		<th>Nome</th>
+		<th>Mês</th>
+		<th>Ano</th>
+		<th colspan="4"></th>
+	</tr>
+	<%= render @cliente.criancas %>
+</table>
+
+<br><br>
+<h3> Adicionar email:</h3>
+<%= render 'emails/form' %>
+
+<br>
+<h3> Adicionar telefone:</h3>
+<%= render 'telefones/form' %>
+
+<br>
+<h3> Adicionar criança:</h3>
+<%= render 'criancas/form' %>
+
+<br><br>
+<%= link_to 'Editar dados do Cliente', edit_cliente_path(@cliente) %><br>
+<%= link_to 'Voltar', clientes_path %>
