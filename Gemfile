@@ -16,7 +16,7 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 
 #Use bootstrap
-gem 'bootstrap-sass','~> 3.2.0'
+gem 'bootstrap-sass','~> 3.4.1'
 gem 'autoprefixer-rails'
 
 #Use React
